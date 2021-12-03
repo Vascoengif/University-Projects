@@ -1,0 +1,735 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(230, 248, 248);
+}
+
+#fundo{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+#underbox{
+    text-align: center;
+    margin-top: 5px;
+    background-color: rgb(79, 172, 248);
+    border-style: solid;
+    border-width: large;
+    border-color: black;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.imageOfUnderBox{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+#sobreAEmpresaDiv, #contactosDiv, #creditosDiv, #colaboradoresDiv{
+    width: 25%;
+}
+
+.titulodeCadaDivUnderbox{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#topbox{
+    margin-top: 5px;
+    background-color: rgb(79, 172, 248);
+    border-style: solid;
+    border-width: large;
+    border-color: black;
+    width: 100%;
+    height: 200px;
+}
+
+#nameOfCompany{
+    text-align: center;
+    font-family: serif;
+}
+
+#img1{
+    float: left;
+    width: 250px;
+    height: 200px;
+} 
+
+
+#topbox button{
+    border-radius: 2px;
+    float: left;
+    border-color:#73a0e9;
+}
+
+.mainData{
+    width: 100%;
+    margin-top: 10px;
+    border-style: solid;
+    border-width: large;
+    border-color: black;
+    height: 800px;
+}
+
+
+#eventosRealizados{
+    display: none;
+    text-align: center;
+}
+
+#eventosADecorrer{
+    text-align: center;
+}
+
+#proximosEventos{
+    display: none;
+    text-align: center;
+}
+
+#procurarEvento{
+    display: none;
+}
+
+#acessoReservado{
+    display: none;
+}
+
+#inscreverParticipanteDiv{
+    display: none;
+    text-align: center;
+}
+
+#ClassificacaoGeralDiv{
+    display: none;
+}
+
+#ListaDeParticipantesForm{
+    display: none;
+}
+
+#ListarParticipanteDiv{
+    display: none;
+    text-align: center;
+}
+
+#eventosRecebidos{
+    display: none;
+    text-align: center;
+}
+
+#Top3Div{
+    display: none;
+}
+
+#mostraTabelaTop3{
+    display: none;
+}
+
+#inscreverParticipanteForm{
+    margin-top: 40px;
+}
+
+.EventosParagrafoNome{
+    font-size: 1.1em;
+    font-weight: bold;
+    color: black;
+}
+
+.EventosParagrafoData{
+    font-size: 1em;
+    color: black;
+}
+
+.EventosparagrafoDescricao{
+    font-size: 1em;
+    color: black;
+}
+
+.buttonsOfEventsExplore{
+    /* width: 150px;
+    height: 30px;
+    margin-right: 10px; */
+    border-radius: 4px;
+    border: 2px solid #73a0e9;
+    transition-duration: 0.2s;
+}
+
+.buttonsOfEventsExplore:hover{
+    background-color: #73a0e9;
+    color: white;
+}
+
+.separateLine{
+    border-style: solid;
+    border-width: large;
+    border-color: black;
+}
+
+#newMiddleDiv{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+    height: 320px;
+    border-style: solid;
+    border-color: black;
+    text-align: left;
+}
+
+#newMiddleDivProcurarEvento{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 270px;
+    border-style: solid;
+    border-color: black;
+    text-align: left;
+}
+
+#newMiddleregistarNovoEventoDiv{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    height: 280px;
+    border-style: solid;
+    border-color: black;
+    text-align: left;
+}
+
+#newMiddleregistarTempoDeParticipanteDiv{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 280px;
+    border-style: solid;
+    border-color: black;
+    text-align: left;
+}
+
+#newMiddleTop3FormDiv{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 250px;
+    border-style: solid;
+    border-color: black;
+    text-align: left;
+}
+
+#procurarEventoForm{
+    margin-top: 40px
+}
+
+#registarNovoEventoForm{
+    margin-top: 20px;
+}
+
+#top3Form{
+    margin-top: 20px;
+}
+
+#titleRegistarNovoEvento{
+    text-align: center;
+    font-weight: bold;
+}
+
+#titleRegistarTempoDeProva{
+    text-align: center;
+    font-weight: bold;
+}
+
+#submitProcurarEvento{
+    margin-left: 120px;
+}
+
+#submitTempodeProva{
+    width: 170px;
+    margin-left: 115px;
+}
+
+#submitTop3{
+    margin-left: 100px;
+}
+
+#hideProcurarEventoButton{
+    margin-left: 120px;
+}
+
+#hideRegistarEventoETempoParticipanteButton{
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+#submitInscreverParticipante{
+    margin-left: 80px;
+}
+
+#submitRegistarEvento{
+    margin-left: 147px;
+}
+
+table, th, td{
+    border: 2px solid #73a0e9;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr:hover{
+    background-color: #a9b2c0;
+}
+
+.tabelasDeClassificacao{
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+
+.TilteMesmoTilte{
+    font-size: 1.1em;
+    font-weight: bold;
+    color: black;
+}
+
+
+#ClassificacaoGeralAbsolutaDiv{
+    float: left;
+    margin-right: 15px;
+    width: 31%;
+}
+
+#ClassificacaoGeralMasculinaDiv{
+    float: left;
+    margin-right: 15px;
+    width: 31%;
+}
+
+#ClassificacaoGeralFemininaDiv{
+    float: left;
+    margin-right: 15px;
+    width: 31%;
+}
+
+
+/* media screen and min device width */
+
+@media screen and (min-device-width:250px){
+    
+    #nameOfCompany{
+        font-size: 15px;
+    }
+
+    #topbox{
+        height: 80px;
+    }
+
+    #img1{
+        width: 100px;
+        height: 80px;
+    } 
+
+    #topbox button{
+        font-size: 1.2px;
+        width: 8%;
+        height: 10px;
+        margin-left: 10px;
+    }
+
+    #underbox{
+        margin-top: 5px;
+        height: 80px;
+    }
+
+    .imageOfUnderBox{
+        width: 15px;
+        height: 15px;
+        margin-right: 3px;
+    }
+
+    .titulodeCadaDivUnderbox{
+        font-size: 7px;
+    }
+
+    .textoUnderBox{
+        font-size: 4.5px;
+    }
+
+    .mainData{
+        height: 300px;
+        font-size: 4.5px;
+    }
+
+    .buttonsOfEventsExplore{
+        width: 40px;
+        height: 10px;
+        margin-right: 3px;
+        font-size: 2.5px;
+    }
+
+    #newMiddleDiv{
+        width: 250px;
+        height: 200px;
+    }
+    #newMiddleDivProcurarEvento{
+        width: 250px;
+        height: 200px;
+    }
+    
+    #newMiddleregistarNovoEventoDiv{
+        width: 250px;
+        height: 200px;
+    }
+    
+    #newMiddleregistarTempoDeParticipanteDiv{
+        width: 250px;
+        height: 200px;
+    }
+    
+    #newMiddleTop3FormDiv{
+        width: 250px;
+        height: 180px;
+    }
+}
+
+@media screen and (min-device-width:300px){
+    #topbox button{
+        font-size: 1.3px;
+        margin-left: 13px;
+    }
+}
+
+@media screen and (min-device-width:350px){
+    #topbox button{
+        font-size: 1.4px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (min-device-width:450px){
+    #topbox button{
+        font-size: 1.8px;
+        margin-left: 30px;
+    }
+}
+
+@media screen and (min-device-width:500px){
+    
+    #nameOfCompany{
+        font-size: 25px;
+    }
+
+    #topbox{
+        height: 100px;
+    }
+
+    #img1{
+        width: 130px;
+        height: 100px;
+    } 
+
+    #topbox button{
+        font-size: 3px;
+        width: 9%;
+        height: 15px;
+        margin-left: 27px;
+    }
+
+    #underbox{
+        margin-top: 5px;
+        height: 100px;
+    }
+
+    .imageOfUnderBox{
+        width: 25px;
+        height: 25px;
+        margin-right: 5px;
+    }
+
+    .titulodeCadaDivUnderbox{
+        font-size: 12px;
+    }
+
+    .textoUnderBox{
+        font-size: 7.5px;
+    }
+
+    .mainData{
+        height: 400px;
+        font-size: 7px;
+    }
+
+    .buttonsOfEventsExplore{
+        width: 60px;
+        height: 18px;
+        margin-right: 8px;
+        font-size: 4px;
+    }
+
+    #newMiddleDiv{
+        width: 250px;
+        height: 230px;
+    }
+
+    #newMiddleDivProcurarEvento{
+        width: 250px;
+        height: 230px;
+    }
+    
+    #newMiddleregistarNovoEventoDiv{
+        width: 230px;
+        height: 200px;
+    }
+    
+    #newMiddleregistarTempoDeParticipanteDiv{
+        width: 230px;
+        height: 200px;
+    }
+    
+    #newMiddleTop3FormDiv{
+        width: 250px;
+        height: 210px;
+    }
+}
+
+@media screen and (min-device-width:550px){
+    #topbox button{
+        font-size: 3px;
+        margin-left: 32px;
+    }
+}
+
+@media screen and (min-device-width:600px){
+    #topbox button{
+        font-size: 3px;
+        margin-left: 35px;
+    }
+}
+
+@media screen and (min-device-width:650px){
+    #topbox button{
+        font-size: 4px;
+        margin-left: 40px;
+    }
+}
+
+@media screen and (min-device-width:700px){
+    #topbox button{
+        font-size: 5px;
+        margin-left: 45px;
+    }
+}
+
+@media screen and (min-device-width:800px){
+    
+    #nameOfCompany{
+        font-size: 35px;
+    }
+
+    #topbox{
+        height: 140px;
+    }
+
+    #img1{
+        width: 180px;
+        height: 140px;
+    } 
+
+    #topbox button{
+        font-size: 7px;
+        width: 10%;
+        height: 22px;
+        margin-left: 40px;
+    }
+
+    #underbox{
+        margin-top: 5px;
+        height: 140px;
+    }
+
+    .imageOfUnderBox{
+        width: 40px;
+        height: 40px;
+        margin-right: 7px;
+    }
+
+    .titulodeCadaDivUnderbox{
+        font-size: 15px;
+    }
+
+    .textoUnderBox{
+        font-size: 12px;
+    }
+
+    .mainData{
+        height: 500px;
+        font-size: 9px;
+    }
+
+    .buttonsOfEventsExplore{
+        width: 120px;
+        height: 22px;
+        margin-right: 9px;
+        font-size: 7px;
+    }
+
+    #newMiddleDiv{
+        width: 260px;
+        height: 250px;
+    }
+
+    #newMiddleDivProcurarEvento{
+        width: 260px;
+        height: 250px;
+    }
+    
+    #newMiddleregistarNovoEventoDiv{
+        width: 280px;
+        height: 240px;
+    }
+    
+    #newMiddleregistarTempoDeParticipanteDiv{
+        width: 260px;
+        height: 250px;
+    }
+    
+    #newMiddleTop3FormDiv{
+        width: 250px;
+        height: 250px;
+    }
+
+    #hideRegistarEventoETempoParticipanteButton{
+        width: 80px;
+    }
+
+    #submitInscreverParticipante{
+        width: 60px;
+    }
+}
+
+@media screen and (min-device-width:900px){
+    
+    #topbox button{
+        font-size: 8px;
+        width: 11%;
+        height: 23px;
+        margin-left: 43px;
+    }
+}
+
+@media screen and (min-device-width:1000px){
+
+    #topbox button{
+        font-size: 9px;
+    }
+}
+
+@media screen and (min-device-width:1100px){
+
+    #topbox button{
+        font-size: 10px;
+        width: 12%;
+        height: 23px;
+        margin-left: 45px;
+    }
+}
+
+@media screen and (min-device-width:1200px){
+    
+    #nameOfCompany{
+        font-size: 50px;
+    }
+
+    #topbox{
+        height: 200px;
+    }
+
+    #img1{
+        width: 250px;
+        height: 200px;
+    } 
+
+    #topbox button{
+        font-size: 11px;
+        width: 12%;
+        height: 25px;
+        margin-left: 35px;
+    }
+
+    #underbox{
+        margin-top: 5px;
+        height: 200px;
+    }
+
+    .imageOfUnderBox{
+        width: 50px;
+        height: 50px;
+        margin-right: 5px;
+    }
+
+    .titulodeCadaDivUnderbox{
+        font-size: 20px;
+    }
+
+    .textoUnderBox{
+        font-size: 17px;
+    }
+
+    .mainData{
+        height: 800px;
+        font-size: 12px;
+    }
+
+    .buttonsOfEventsExplore{
+        width: 150px;
+        height: 30px;
+        margin-right: 10px;
+        font-size: 11px;
+    }
+
+    #newMiddleDiv{
+        width: 320px;
+        height: 320px;
+    }
+
+    #newMiddleDivProcurarEvento{
+        width: 320px;
+        height: 320px;
+    }
+    
+    #newMiddleregistarNovoEventoDiv{
+        width: 320px;
+        height: 320px;
+    }
+    
+    #newMiddleregistarTempoDeParticipanteDiv{
+        width: 320px;
+        height: 320px;
+    }
+    
+    #newMiddleTop3FormDiv{
+        width: 320px;
+        height: 320px;
+    }
+
+}
+
+@media screen and (min-device-width:1500px){
+    
+    #topbox button{
+        font-size: 12px;
+        width: 13%;
+        height: 30px;
+        margin-left: 50px;
+    }
+
+}
