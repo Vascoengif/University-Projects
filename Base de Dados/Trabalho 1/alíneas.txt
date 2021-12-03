@@ -1,0 +1,57 @@
+a)
+select Matricula
+from modelo natural inner join taxi
+where Marca like 'Mercedes'
+
+b)
+select Nome
+from modelo natural inner join turno natural inner join motorista natural inner join taxi
+where Marca like 'Mercedes'
+
+c)
+select distinct Telefone
+from pedido, turno, telefone, servico
+where Nif like '600700800900' and pedido.Matricula=servico.Matricula and servico.Matricula=turno.Matricula and turno.Nbi=telefone.Nbi 
+
+
+d)
+select Marca, Modelo
+from motorista natural inner join turno natural inner join taxi natural inner join modelo
+where Nome like 'Anibal Silva'
+
+e)
+select Nome
+from motorista
+except
+select motorista.Nome
+from cliente, motorista, pedido, turno
+where cliente.Nome like 'José Silva' and cliente.Nif=pedido.Nif and pedido.Matricula=turno.Matricula and turno.Nbi=motorista.Nbi
+
+f)
+select Nome
+from motorista
+except
+select Nome
+from modelo natural inner join turno natural inner join motorista natural inner join taxi
+where Marca like 'Mercedes'
+
+
+g)
+select Nome
+from motorista
+where not exists ((select matricula from taxi)
+except
+(select matricula from turno where motorista.Nbi=turno.Nbi))
+
+
+h)
+select Nbi, count(servico.Matricula) as NoServicos
+from servico, turno natural inner join motorista
+where date(servico.DataInicio)=date(turno.DataInicio) and servico.Matricula=turno.Matricula
+group by Nbi
+
+i)
+select Nbi, sum(Valor) as Lucros
+from servico, turno natural inner join motorista
+where date(servico.DataInicio)=date(turno.DataInicio) and servico.Matricula=turno.Matricula
+group by Nbi

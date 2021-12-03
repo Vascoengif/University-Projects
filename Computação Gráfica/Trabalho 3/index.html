@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>42819-X3D</title>
+        <script type="text/javascript" src ="./js/palacio.x3d"></script> 
+        <script src="./lib/x3dom/x3dom-full.js"></script>
+    </head>
+    <body>
+        <h1>Trabalho de 42819 - X3D</h1>
+        <X3D width="800px" height="600px">
+			<Scene>
+				<Group>
+					<Transform translation="0 0 0">
+    					<Shape id="porta">
+        					<Appearance>
+            					<TwoSidedMaterial diffuseColor="saddlebrown"></TwoSidedMaterial>
+           					</Appearance>
+        					<Box size="0.5 0.5 5.5"></Box>
+    					</Shape>
+    				</Transform>
+
+    				<Transform translation = "0 0 0">
+    					<Shape id="contorno_porta">
+    						<Appearance>
+    							<TwoSidedMaterial diffuseColor = "#210404"></TwoSidedMaterial>
+    						</Appearance>
+    						<Box size = "0.6 0.6 5.49"></Box>
+    					</Shape>
+    				</Transform>
+
+    				<Transform translation = "0 0.12 0">
+    					<Shape id="contorno_contorno_porta">
+    						<Appearance>
+    							<TwoSidedMaterial diffuseColor = "#FF5E00"></TwoSidedMaterial>
+    						</Appearance>
+    						<Box size = "1 0.85 5.35"></Box>
+    					</Shape>
+    				</Transform>
+
+    				<Transform translation = "0 -0.015 0">
+    					<Shape id="base_larga_vermelha">
+    						<Appearance>
+    							<TwoSidedMaterial diffuseColor = "red"></TwoSidedMaterial>
+    						</Appearance>
+    						<Box size = "3 0.6 4"></Box>
+    					</Shape>
+    				</Transform>
+
+    				<Transform translation = "0 0.30 0">
+    					<Shape id="base_larga_preta">
+    						<Appearance>
+    							<TwoSidedMaterial diffuseColor = "black"></TwoSidedMaterial>
+    						</Appearance>
+    						<Box size = "3.1 0.05 4.1"></Box>
+    					</Shape>
+    				</Transform>
+
+    				<Transform translation = "0 0.52 0">
+    					<Shape id="base_larga_vermelha_2">
+    						<Appearance>
+    							<TwoSidedMaterial diffuseColor = "red"></TwoSidedMaterial>
+    						</Appearance>
+    						<Box size = "2.80 0.55 3.5"></Box>
+    					</Shape>
+    				</Transform>
+
+    				<Transform translation = "0 0.8 0">
+    					<Shape id="base_larga_preta_2">
+    						<Appearance>
+    							<TwoSidedMaterial diffuseColor = "black"></TwoSidedMaterial>
+    						</Appearance>
+    						<Box size = "2.9 0.05 3.6"></Box>
+    					</Shape>
+    				</Transform>
+
+    				<Transform translation = "0 0.8 0">
+    					<Shape id="base_larga_vermelha_3">
+    						<Appearance>
+    							<TwoSidedMaterial diffuseColor = "red"></TwoSidedMaterial>
+    						</Appearance>
+    						<Box size = "2.60 0.5 3"></Box>
+    					</Shape>
+    				</Transform>
+
+    				<Transform translation = "0 1.05 0">
+    					<Shape id="base_larga_preta_3">
+    						<Appearance>
+    							<TwoSidedMaterial diffuseColor = "black"></TwoSidedMaterial>
+    						</Appearance>
+    						<Box size = "2.70 0.05 3.1"></Box>
+    					</Shape>
+    				</Transform>
+
+    				<Transform translation = "0 1.07 0">
+    					<Shape id="base_larga_vermelha_4">
+    						<Appearance>
+    							<TwoSidedMaterial diffuseColor = "red"></TwoSidedMaterial>
+    						</Appearance>
+    						<Box size = "2.40 0.45 2.5"></Box>
+    					</Shape>
+    				</Transform>
+
+    				<Transform translation = "0 1.3 0">
+    					<Shape id="base_larga_preta_4">
+    						<Appearance>
+    							<TwoSidedMaterial diffuseColor = "black"></TwoSidedMaterial>
+    						</Appearance>
+    						<Box size = "2.50 0.05 2.6"></Box>
+    					</Shape>
+    				</Transform>
+
+    				<Transform translation = "0 1.40 0">
+    					<Shape id="base_larga_vermelha_5">
+    						<Appearance>
+    							<TwoSidedMaterial diffuseColor = "red"></TwoSidedMaterial>
+    						</Appearance>
+    						<Box size = "2.20 0.3 2"></Box>
+    					</Shape>
+    				</Transform>
+
+    				<Transform translation='0 1.1 0'>
+      					<Shape id="cilindro_torre">
+        						<Appearance>
+          							<TwoSidedMaterial diffuseColor="brown"></TwoSidedMaterial>
+        						</Appearance>
+        						<Cylinder height='2.8' radius='0.6'/>
+     	 				</Shape>
+    				</Transform>
+
+    				<Transform translation='0 2.6 0'>
+      					<Shape>
+        					<Appearance>
+          						<TwoSidedMaterial diffuseColor="red"></TwoSidedMaterial>
+        					</Appearance>
+        					<Sphere radius='0.55'/>
+      					</Shape>
+    				</Transform>
+
+    				<Transform translation='0 2.6 0' scale = "1 0.3 1">
+      					<Shape>
+        					<Appearance>
+          						<TwoSidedMaterial diffuseColor="orange"></TwoSidedMaterial>
+        					</Appearance>
+        					<Sphere radius='0.7'/>
+      					</Shape>
+    				</Transform>
+
+    			
+    				<switch whichChoice = "-1">
+            			<extrusion
+    						id="borda_terraço"
+    						convex="false"
+    						crossSection="
+        						0.9     -1.
+        						0.9     0.5
+        						0.0     0.9
+        						0.0     0.8
+        						0.85    0.45
+        						0.9     -1">
+						</extrusion>
+        			</switch>
+
+        			<Transform id = "boarder1">
+            			<transform translation = "1.1 1.7 0" rotation = "1 0 0 1.57" scale = "0.3 1 0.2">
+                			<shape>
+                    			<appearance>
+                        			<twosidedmaterial diffuseColor = "red"></twosidedmaterial>
+                    			</appearance>
+                    			<x3dgeometrynode use = "borda_terraço"></x3dgeometrynode>
+                			</shape>
+            		</Transform>
+
+            		<Transform id = "boarder2">
+            			<transform translation = "1.1 1.7 -1" rotation = "1 0 0 1.57" scale = "0.3 1 0.2">
+                			<shape>
+                    			<appearance>
+                        			<twosidedmaterial diffuseColor = "red"></twosidedmaterial>
+                    			</appearance>
+                    			<x3dgeometrynode use = "borda_terraço"></x3dgeometrynode>
+                			</shape>
+            		</Transform>
+
+	            	<Transform id = "boarder3">
+	            		<transform translation = "-1.1 1.7 -1" rotation = "1 0 0 1.57" scale = "-0.3 1 0.2">
+	                		<shape>
+	                    		<appearance>
+	                        		<twosidedmaterial diffuseColor = "red"></twosidedmaterial>
+	                    		</appearance>
+	                    		<x3dgeometrynode use = "borda_terraço"></x3dgeometrynode>
+	                		</shape>
+	            	</Transform>
+
+	            	<Transform id = "boarder4">
+	            		<transform translation = "-1.1 1.7 0" rotation = "1 0 0 1.57" scale = "-0.3 1 0.2">
+	                		<shape>
+	                    		<appearance>
+	                        		<twosidedmaterial diffuseColor = "red"></twosidedmaterial>
+	                    		</appearance>
+	                    		<x3dgeometrynode use = "borda_terraço"></x3dgeometrynode>
+	                		</shape>
+	            	</Transform>
+
+	            	
+		            <Transform translation = "0 1.72 0">
+	    				<Shape id="base_larga_vermelha_6">
+	    					<Appearance>
+	    						<TwoSidedMaterial diffuseColor = "brown"></TwoSidedMaterial>
+	    					</Appearance>
+	    					<Box size = "2.20 0.35 2"></Box>
+	    				</Shape>
+	    			</Transform>
+	           		
+	    			
+	    			<Transform translation = "0 1.90 0">
+	    				<Shape id="topo_terraço">
+	    					<Appearance>
+	    						<TwoSidedMaterial diffuseColor = "red"></TwoSidedMaterial>
+	    					</Appearance>
+	    					<Box size = "2.74 0.005 2"></Box>
+	    				</Shape>
+	    			</Transform>
+
+	            	<switch whichChoice = "-1">
+            			<extrusion
+    						id="telhado"
+    						convex="false"
+    						crossSection="
+        						-0.9     0.
+        						0.9      0
+        						0.7      -0.5
+        						-0.7     -0.5
+        						-0.9     0">
+						</extrusion>
+        			</switch>
+
+        			<Transform id = "telhado1">
+            			<transform translation = "0 0.53 -2.7" rotation = "1 0 0 1.57" scale = "0.65 5.4 0.5">
+                			<shape>
+                    			<appearance>
+                        			<twosidedmaterial diffuseColor = "red"></twosidedmaterial>
+                    			</appearance>
+                    			<x3dgeometrynode use = "telhado"></x3dgeometrynode>
+                			</shape>
+            		</Transform>
+
+            		<Transform id = "telhado2">
+            			<transform translation = "0 0.785 -2.7" rotation = "1 0 0 1.57" scale = "0.40 5.4 0.15">
+                			<shape>
+                    			<appearance>
+                        			<twosidedmaterial diffuseColor = "#FF5E00"></twosidedmaterial>
+                    			</appearance>
+                    			<x3dgeometrynode use = "telhado"></x3dgeometrynode>
+                			</shape>
+            		</Transform>
+
+            		<Transform id = "telhado3">
+            			<transform translation = "0 0.85 -2.7" rotation = "1 0 0 1.57" scale = "0.50 5.4 0.35">
+                			<shape>
+                    			<appearance>
+                        			<twosidedmaterial diffuseColor = "red"></twosidedmaterial>
+                    			</appearance>
+                    			<x3dgeometrynode use = "telhado"></x3dgeometrynode>
+                			</shape>
+            		</Transform>
+
+            		<Transform id = "telhado4">
+            			<transform translation = "0 1.03 -2.7" rotation = "1 0 0 1.57" scale = "0.17 5.4 0.07">
+                			<shape>
+                    			<appearance>
+                        			<twosidedmaterial diffuseColor = "#FF5E00"></twosidedmaterial>
+                    			</appearance>
+                    			<x3dgeometrynode use = "telhado"></x3dgeometrynode>
+                			</shape>
+            		</Transform>
+
+            		<Transform id = "telhado5">
+            			<transform translation = "0 1.07 -2.7" rotation = "1 0 0 1.57" scale = "0.35 5.4 0.25">
+                			<shape>
+                    			<appearance>
+                        			<twosidedmaterial diffuseColor = "red"></twosidedmaterial>
+                    			</appearance>
+                    			<x3dgeometrynode use = "telhado"></x3dgeometrynode>
+                			</shape>
+                	</Transform>
+
+                	<Transform translation='0 1.3 2.4' scale = "0.3 0.3 0.3">
+      					<Shape>
+        					<Appearance>
+          						<TwoSidedMaterial diffuseColor="red"></TwoSidedMaterial>
+        					</Appearance>
+        					<Sphere radius='0.7'/>
+      					</Shape>
+    				</Transform>
+
+    				<Transform translation='0 1.6 2.4' scale = "0.13 0.13 0.13">
+      					<Shape>
+        					<Appearance>
+          						<TwoSidedMaterial diffuseColor="gold"></TwoSidedMaterial>
+        					</Appearance>
+        					<Sphere radius='0.7'/>
+      					</Shape>
+      				</Transform>
+
+      				<Transform translation='0 1.33 2.4' scale = "0.4 0.18 0.4">
+      					<Shape>
+        					<Appearance>
+          						<TwoSidedMaterial diffuseColor="gold"></TwoSidedMaterial>
+        					</Appearance>
+        					<Sphere radius='0.7'/>
+      					</Shape>
+      				</Transform>
+
+      				<Transform translation='0 1.3 -2.4' scale = "0.3 0.3 0.3">
+      					<Shape>
+        					<Appearance>
+          						<TwoSidedMaterial diffuseColor="red"></TwoSidedMaterial>
+        					</Appearance>
+        					<Sphere radius='0.7'/>
+      					</Shape>
+    				</Transform>
+
+    				<Transform translation='0 1.6 -2.4' scale = "0.13 0.13 0.13">
+      					<Shape>
+        					<Appearance>
+          						<TwoSidedMaterial diffuseColor="gold"></TwoSidedMaterial>
+        					</Appearance>
+        					<Sphere radius='0.7'/>
+      					</Shape>
+      				</Transform>
+
+      				<Transform translation='0 1.33 -2.4' scale = "0.4 0.18 0.4">
+      					<Shape>
+        					<Appearance>
+          						<TwoSidedMaterial diffuseColor="gold"></TwoSidedMaterial>
+        					</Appearance>
+        					<Sphere radius='0.7'/>
+      					</Shape>
+      				</Transform>
+
+      				<Transform translation='0 3.2 0' scale = "0.4 0.4 0.4">
+      					<Shape>
+        					<Appearance>
+          						<TwoSidedMaterial diffuseColor="gold"></TwoSidedMaterial>
+        					</Appearance>
+        					<Sphere radius='0.4'/>
+      					</Shape>
+      				</Transform>
+
+      				<Transform translation='0 3.4 0' scale = "0.4 0.15 0.4">
+      					<Shape>
+        					<Appearance>
+          						<TwoSidedMaterial diffuseColor="gold"></TwoSidedMaterial>
+        					</Appearance>
+        					<Sphere radius='0.4'/>
+      					</Shape>
+      				</Transform>
+
+      				<extrusion
+    					id="keel"
+    					convex="false"
+    					crossSection="
+        					-3       1
+        					-3       1.5
+        					-2.95    1.6
+        					-2.85    1.7
+        					-2.70    1.8
+        					-2.55    1.9
+        					-2.35    2
+        					-2.35    1.9
+        					-2.50    1.85
+        					-2.65    1.75
+        					-2.80    1.65
+        					-2.95    1.55
+        					-2.95    0.95
+        					-2.80    0.85
+        					-2.65    0.75
+        					-2.50    0.65
+                            -2.35    0.6
+                            -2.35    0.5
+                            -2.55    0.6
+                            -2.70    0.7
+                            -2.85    0.8
+                            -2.95    0.9
+                            -3       1">
+					</extrusion>
+
+					<Transform id = "bruh">
+            			<transform translation = "-1.4 -9.7 -4.35" rotation = "0 0 1 4.7" scale = "4 2.5 3.5">
+                			<shape>
+                    			<appearance>
+                        			<twosidedmaterial diffuseColor = "gold"></twosidedmaterial>
+                    			</appearance>
+                    			<x3dgeometrynode use = "keel"></x3dgeometrynode>
+                			</shape>
+            		</Transform>
+            	</Group>			
+			</Scene>
+		</X3D>
+    </body>
+</html>

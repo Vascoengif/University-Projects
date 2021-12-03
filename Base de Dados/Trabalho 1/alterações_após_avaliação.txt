@@ -1,0 +1,3 @@
+Foram alteradas algumas chaves como foi pedido;
+Foram realizadas as alíneas h) e i) (em álgebra relacional, em SQL já tínhamos mas ainda não constava do relatório, o qual já está atualizado);
+Foram melhoradas todas as alíneas apresentadas, pois estávamos a usar o "join" e ainda assim foram postas condições desnecessárias no "where"...resolvido.
