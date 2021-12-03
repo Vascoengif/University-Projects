@@ -1,0 +1,861 @@
+<svg width="600" height="600"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    
+    <defs>
+		<g id = "adeptos">
+			<path d="
+				M 0 0
+				L 0 600
+				L 600 600
+				L 600 0
+				L 0 0"/>
+		</g>
+		<g id = "adeptos_amarelos">
+			 <circle cx = "170" cy = "320" r = "100"/>
+		</g>
+		<linearGradient id="grad2">
+            <stop offset="0" stop-color="#31A431" />
+            <stop offset="0.7" stop-color="red" />
+        </linearGradient> -->
+        <radialGradient id="grad3" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      		<stop offset="0%" style="stop-color:rgb(231,255,9);
+      		stop-opacity:0.2" />
+      		<stop offset="100%" style="stop-color:rgb(231,255,9);stop-opacity:0.3" />
+    	</radialGradient>
+    	<g id = "barras_topo_estádio">
+    		<path stroke = "rbg(31, 14, 119)" fill = "#0C0432" d="
+				M 0 0
+				L 0 160
+				Q 300 90 600 160
+				L 600 0
+				L 0 0"/>
+
+			<path stroke = "black" fill = "green" d="
+				M 0 100
+				Q 300 40 600 100
+				L 600 125
+				Q 300 50 0 125
+				L 0 100"/>
+
+			<path stroke = "black" fill = "black" d="
+				M 0 160
+				L 0 155
+				Q 300 90 600 155
+				L 600 160
+				Q 300 95 0 160"/>
+    	</g>
+    	<g id = "barra_estadio_esquerda_triangulo">
+			<path d="
+				M 0 155
+				L 50 115
+				L 60 113
+				L 120 135
+				L 100 137
+				L 60 120
+				L 56 120
+				L 20 150
+				L 0 155"/>
+		</g>
+		<g id = "segunda_barra_estadio_esquerda_triangulo">
+			<path d="
+				M 120 135
+				L 195 93
+				L 220 91
+				L 295 122
+				L 265 122
+				L 214 100
+				L 202 101
+				L 150 131
+				L 120 135"/>
+		</g>
+		<!--focos de luz do estádio-->
+		<g id = "foco_menor_1">
+			<circle cx = "55" cy = "100" r = "40" opacity = "0.05"/>
+			<circle cx = "55" cy = "100" r = "35" opacity = "0.1"/>
+			<circle cx = "55" cy = "100" r = "30" opacity = "0.20"/>
+			<circle cx = "55" cy = "100" r = "25" opacity = "0.30"/>
+			<circle cx = "55" cy = "100" r = "20" opacity = "0.40"/>
+			<circle cx = "55" cy = "100" r = "15" opacity = "0.50"/>
+			<circle cx = "55" cy = "100" r = "10" opacity = "0.60"/>
+			<circle cx = "55" cy = "100" r = "5"  opacity = "0.70"/>
+		</g>
+		<g id = "foco_maior_1">
+			<circle cx = "205" cy = "80" r = "60" opacity = "0.05"/>
+			<circle cx = "205" cy = "80" r = "55" opacity = "0.1"/>
+			<circle cx = "205" cy = "80" r = "50" opacity = "0.15"/>
+			<circle cx = "205" cy = "80" r = "45" opacity = "0.20"/>
+			<circle cx = "205" cy = "80" r = "40" opacity = "0.30"/>
+			<circle cx = "205" cy = "80" r = "35" opacity = "0.40"/>
+			<circle cx = "205" cy = "80" r = "30" opacity = "0.50"/>
+			<circle cx = "205" cy = "80" r = "25"  opacity = "0.60"/>
+			<circle cx = "205" cy = "80" r = "20" opacity = "0.70"/>
+			<circle cx = "205" cy = "80" r = "15" opacity = "0.80"/>
+			<circle cx = "205" cy = "80" r = "10"  opacity = "0.90"/>
+		</g>
+
+		<!-- flasses adeptos -->
+
+		<g id = "flashes_adeptos">
+    		<use xlink:href = "#foco_menor_1" stroke = "none" fill = "white" transform = "scale(0.1, 0.1) translate(4500, 2000)"/>
+    		<use xlink:href = "#foco_menor_1" stroke = "none" fill = "white" transform = "scale(0.1, 0.1) translate(4000, 2100)"/>
+    		<use xlink:href = "#foco_menor_1" stroke = "none" fill = "white" transform = "scale(0.1, 0.1) translate(2000, 2000)"/>
+    		<use xlink:href = "#foco_menor_1" stroke = "none" fill = "white" transform = "scale(0.1, 0.1) translate(5000, 4000)"/>
+    		<use xlink:href = "#foco_menor_1" stroke = "none" fill = "white" transform = "scale(0.1, 0.1) translate(800, 4500)"/>
+    		<use xlink:href = "#foco_menor_1" stroke = "none" fill = "white" transform = "scale(0.1, 0.1) translate(600, 1500)"/>
+    		<use xlink:href = "#foco_menor_1" stroke = "none" fill = "white" transform = "scale(0.1, 0.1) translate(900, 2000)"/>
+    		<use xlink:href = "#foco_menor_1" stroke = "none" fill = "white" transform = "scale(0.1, 0.1) translate(400, 3500)"/>
+    		<use xlink:href = "#foco_menor_1" stroke = "none" fill = "white" transform = "scale(0.1, 0.1) translate(1000, 3400)"/>
+    		<use xlink:href = "#foco_menor_1" stroke = "none" fill = "white" transform = "scale(0.1, 0.1) translate(700, 3800)"/>
+    		<use xlink:href = "#foco_menor_1" stroke = "none" fill = "white" transform = "scale(0.1, 0.1) translate(1200, 4000)"/>
+    		<use xlink:href = "#foco_menor_1" stroke = "none" fill = "white" transform = "scale(0.1, 0.1) translate(1400, 2300)"/>
+    		<use xlink:href = "#foco_menor_1" stroke = "none" fill = "white" transform = "scale(0.1, 0.1) translate(300, 2500)"/>
+    		<use xlink:href = "#foco_menor_1" stroke = "none" fill = "white" transform = "scale(0.1, 0.1) translate(4500, 2500)"/>
+    		<use xlink:href = "#foco_menor_1" stroke = "none" fill = "white" transform = "scale(0.1, 0.1) translate(5500, 1600)"/>
+    		<use xlink:href = "#foco_menor_1" stroke = "none" fill = "white" transform = "scale(0.1, 0.1) translate(3800, 1400)"/>
+    		<use xlink:href = "#foco_menor_1" stroke = "none" fill = "white" transform = "scale(0.1, 0.1) translate(5500, 4300)"/>
+    		<use xlink:href = "#foco_menor_1" stroke = "none" fill = "white" transform = "scale(0.1, 0.1) translate(5300, 3400)"/>
+    		<use xlink:href = "#foco_menor_1" stroke = "none" fill = "white" transform = "scale(0.1, 0.1) translate(5000, 5200)"/>
+    		<use xlink:href = "#foco_menor_1" stroke = "none" fill = "white" transform = "scale(0.1, 0.1) translate(4600, 5000)"/>
+    		<use xlink:href = "#foco_menor_1" stroke = "none" fill = "white" transform = "scale(0.1, 0.1) translate(3000, 4000)"/>
+    		<use xlink:href = "#foco_menor_1" stroke = "none" fill = "white" transform = "scale(0.1, 0.1) translate(3500, 4300)"/>
+    		<use xlink:href = "#foco_menor_1" stroke = "none" fill = "white" transform = "scale(0.1, 0.1) translate(2300, 5200)"/>
+    		<use xlink:href = "#foco_menor_1" stroke = "none" fill = "white" transform = "scale(0.1, 0.1) translate(2000, 3400)"/>
+    		<use xlink:href = "#foco_menor_1" stroke = "none" fill = "white" transform = "scale(0.1, 0.1) translate(3100, 5000)"/>
+    		<use xlink:href = "#foco_menor_1" stroke = "none" fill = "white" transform = "scale(0.1, 0.1) translate(2800, 1700)"/>
+    		<use xlink:href = "#foco_menor_1" stroke = "none" fill = "white" transform = "scale(0.1, 0.1) translate(3000, 1500)"/>
+    	</g>
+
+    	<!--fecho laterais-->
+
+    	<g id = "fecho_lateral_esquerdo">
+			<path d="
+				M 0 400
+				L 0 600
+				L 90 600
+				Q 50 450 0 400"/>
+		</g>
+		<g id = "suporte_lateral_esquerdo">
+			<path d="
+				M 20 600
+				L 30 600
+				L 30 441
+				L 20 425
+				L 20 600"/>
+		</g>
+
+		<!-- barra FIFA -->
+
+		<g id = "barra_FIFA">
+			<path d="
+				M 0 600
+				L 0 550
+				L 600 550
+				L 600 600
+				L 0 600"/>
+		</g>
+		<g id = "suporte_FIFA">
+			<path d="
+				M 266 583
+				L 272 554
+				L 348 554
+				L 342 583
+				L 266 583">
+				<animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="-0.3 500 100000"
+                          to="0.6 500 100000"
+                          dur="15s"
+                          repeatCount="indefinite"/>
+    		</path>
+
+    	</g>
+		<g id = "FIFA_letras">
+			<text x="270" y="580" font-size="30" font-family="sans serif" font-style = "italic" font-weight = "900" fill="crimson">
+    		FIFA FIFA
+    		<animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="-0.3 500 100000"
+                          to="0.6 500 100000"
+                          dur="15s"
+                          repeatCount="indefinite"/>
+    		</text>
+		</g>
+		<g id = "FIFA">
+			<use xlink:href = "#suporte_FIFA" stroke = "black" fill = "black"/>
+			<use xlink:href = "#suporte_FIFA" stroke = "blue" fill = "blue" transform="translate(80, 0)"/>
+			<use xlink:href = "#FIFA_letras"/>
+			<use xlink:href = "#suporte_FIFA" stroke = "black" fill = "black" transform = "translate(-300, 0)"/>
+			<use xlink:href = "#suporte_FIFA" stroke = "blue" fill = "blue" transform = "translate(-220, 0)"/>
+			<use xlink:href = "#FIFA_letras" transform="translate(-300, 0)"/>
+			<use xlink:href = "#suporte_FIFA" stroke = "black" fill = "black" transform = "translate(-600, 0)"/>
+			<use xlink:href = "#suporte_FIFA" stroke = "blue" fill = "blue" transform="translate(-520, 0)"/>
+			<use xlink:href = "#FIFA_letras" transform="translate(-600, 0)"/>
+		</g> -->
+		<!-- baliza -->
+
+		<g id = "poste_baliza">
+    		<path d="
+    			M 80 600
+    			L 80 400
+    			Q 85 390 90 400
+    			L 90 600
+    			L 80 600"/>
+    	</g>-->
+    	<g id = "suporte_baliza">
+    		<path d="
+    			M 80 400
+    			L 50 410
+    			L 0 600
+    			L 10 600
+    			L 57 418
+    			L 80 410
+    			L 80 400"/>
+    	</g>
+    	<g id = "rede">
+    		<path d="
+    			M 80 420
+    			L 56 420
+    			M 80 440
+    			L 52 440
+    			M 80 460
+    			L 46 460
+    			M 80 480
+    			L 40 480
+    			M 80 500
+    			L 35 500
+    			M 80 520
+    			L 30 520
+    			M 80 540
+    			L 26 540
+    			M 80 560
+    			L 20 560
+    			M 80 580
+    			L 15 580
+    			M 70 414
+    			L 70 600
+    			M 60 417
+    			L 60 600
+    			M 50 447
+    			L 50 600
+    			M 40 485
+    			L 40 600
+    			M 30 522
+    			L 30 600
+    			M 20 562
+    			L 20 600"/>
+    	</g>
+
+    	<!-- relvado -->
+
+    	<g id = "relvado1">
+			<path d="
+				M 0 595
+				L 5 595
+				Q 10 590 2 585
+				Q 15 590 10 591
+				Q 10 590 15 583
+				Q 10 595 20 593
+				L 20 600
+				L 0 600
+				L 0 595"/>
+		</g>
+		<g id = "relvado2">
+			<use xlink:href = "#relvado1" />
+			<use xlink:href = "#relvado1" transform = "translate(10, 0)"/>
+			<use xlink:href = "#relvado1" transform = "translate(20, 0)"/>
+			<use xlink:href = "#relvado1" transform = "translate(30, 0)"/>
+			<use xlink:href = "#relvado1" transform = "translate(40, 0)"/>
+			<use xlink:href = "#relvado1" trasnform = "translate(45, 0)"/>
+			<use xlink:href = "#relvado1" transform = "translate(50, 0)"/>
+			<use xlink:href = "#relvado1" transform = "translate(60, 0)"/>
+			<use xlink:href = "#relvado1" transform = "translate(70, 0)"/>
+			<use xlink:href = "#relvado1" transform = "translate(80, 0)"/>
+			<use xlink:href = "#relvado1" trasnform = "translate(90, 0)"/>
+		</g>
+		<g id = "relvado3">
+			<use xlink:href = "#relvado2" stroke = "darkgreen" fill = "green"/>
+			<use xlink:href = "#relvado2" stroke = "darkgreen" fill = "green" transform = "translate(90, 0)"/>
+			<use xlink:href = "#relvado2" stroke = "darkgreen" fill = "green" transform = "translate(180, 0)"/>
+			<use xlink:href = "#relvado2" stroke = "darkgreen" fill = "green" transform = "translate(270, 0)"/>
+			<use xlink:href = "#relvado2" stroke = "darkgreen" fill = "green" transform = "translate(360, 0)"/>
+			<use xlink:href = "#relvado2" stroke = "darkgreen" fill = "green" transform = "translate(450, 0)"/>
+			<use xlink:href = "#relvado2" stroke = "darkgreen" fill = "green" transform = "translate(540, 0)"/>
+		</g>
+
+		<g id = "barra_piso1/2">
+			<path d="
+				M 0 270
+				L 600 270
+				L 600 290
+				L 0 290
+				L 0 270"/>
+		</g>
+		<g id = "camarote">
+			<path d="
+				M 0 290
+				L 100 290
+				L 100 310
+				L 0 310
+				L 0 290"/>
+		</g>
+		<linearGradient id="grad1">
+            <stop offset="0" stop-color="#7ADBF3" />
+            <stop offset="0.5" stop-color="white" />
+            <stop offset="1" stop-color="#7ADBF3" />
+        </linearGradient>
+
+        <g id = "entrada_piso_superior_H">
+			<path d ="
+				M 230 130
+				L 230 270
+				L 260 270
+				L 260 210
+				L 340 210
+				L 340 270
+				L 370 270
+				L 370 130
+				L 340 128
+				L 340 200
+				L 260 200
+				L 260 128
+				L 230 130"/>
+		</g>
+		<g id = "escadas1">
+			<path d ="
+				M 230 133
+				L 260 133"/>
+		</g>
+		<g id = "escadas_esquerda">
+			<use xlink:href = "#escadas1" stroke = "black"/>
+			<use xlink:href = "#escadas1" stroke = "black" transform = "translate(0, 5)"/>
+			<use xlink:href = "#escadas1" stroke = "black" transform = "translate(0, 10)"/>
+			<use xlink:href = "#escadas1" stroke = "black" transform = "translate(0, 15)"/>
+			<use xlink:href = "#escadas1" stroke = "black" transform = "translate(0, 20)"/>
+			<use xlink:href = "#escadas1" stroke = "black" transform = "translate(0, 25)"/>
+			<use xlink:href = "#escadas1" stroke = "black" transform = "translate(0, 30)"/>
+			<use xlink:href = "#escadas1" stroke = "black" transform = "translate(0, 35)"/>
+			<use xlink:href = "#escadas1" stroke = "black" transform = "translate(0, 40)"/>
+			<use xlink:href = "#escadas1" stroke = "black" transform = "translate(0, 45)"/>
+			<use xlink:href = "#escadas1" stroke = "black" transform = "translate(0, 50)"/>
+			<use xlink:href = "#escadas1" stroke = "black" transform = "translate(0, 55)"/>
+			<use xlink:href = "#escadas1" stroke = "black" transform = "translate(0, 60)"/>
+			<use xlink:href = "#escadas1" stroke = "black" transform = "translate(0, 65)"/>
+			<use xlink:href = "#escadas1" stroke = "black" transform = "translate(0, 70)"/>
+			<use xlink:href = "#escadas1" stroke = "black" transform = "translate(0, 75)"/>
+			<use xlink:href = "#escadas1" stroke = "black" transform = "translate(0, 80)"/>
+			<use xlink:href = "#escadas1" stroke = "black" transform = "translate(0, 85)"/>
+			<use xlink:href = "#escadas1" stroke = "black" transform = "translate(0, 90)"/>
+			<use xlink:href = "#escadas1" stroke = "black" transform = "translate(0, 95)"/>
+			<use xlink:href = "#escadas1" stroke = "black" transform = "translate(0, 100)"/>
+			<use xlink:href = "#escadas1" stroke = "black" transform = "translate(0, 105)"/>
+			<use xlink:href = "#escadas1" stroke = "black" transform = "translate(0, 110)"/>
+			<use xlink:href = "#escadas1" stroke = "black" transform = "translate(0, 115)"/>
+			<use xlink:href = "#escadas1" stroke = "black" transform = "translate(0, 120)"/>
+			<use xlink:href = "#escadas1" stroke = "black" transform = "translate(0, 125)"/>
+			<use xlink:href = "#escadas1" stroke = "black" transform = "translate(0, 130)"/>
+			<use xlink:href = "#escadas1" stroke = "black" transform = "translate(0, 130)"/>
+		</g>
+		<g id = "escuro_piso_superior">
+			<path d="
+				M 260 270
+				L 260 210
+				L 340 210
+				L 340 270
+				L 260 270"/>
+		</g>
+		<g id = "arco_escuro_piso_superior">
+			<path d="
+				M 260 210
+				Q 265 235 270 270
+				L 260 270
+				L 260 210"/>
+		</g>
+		<g id = "entrada_piso_inferior">
+			<path d="
+				M 150 550
+				L 150 490
+				L 110 490
+				L 110 420
+				L 150 420
+				L 150 330
+				L 180 330
+				L 180 420
+				L 220 420
+				L 220 490
+				L 180 490
+				L 180 550
+				L 150 550"/>
+		</g>
+		<g id = "escadas2">
+			<path d="
+				M 150 550
+				L 180 550"/>
+		</g>
+		<g id = "escadas3">
+			<path d="
+				M 110 490
+				L 220 490"/>
+		</g>
+		<g id = "escadas_baixo_esquerda_escadas2">
+			<use xlink:href = "#escadas2" stroke = "black" transform = "translate(0, -5)"/>
+			<use xlink:href = "#escadas2" stroke = "black" transform = "translate(0, -10)"/>
+			<use xlink:href = "#escadas2" stroke = "black" transform = "translate(0, -15)"/>
+			<use xlink:href = "#escadas2" stroke = "black" transform = "translate(0, -20)"/>
+			<use xlink:href = "#escadas2" stroke = "black" transform = "translate(0, -25)"/>
+			<use xlink:href = "#escadas2" stroke = "black" transform = "translate(0, -30)"/>
+			<use xlink:href = "#escadas2" stroke = "black" transform = "translate(0, -35)"/>
+			<use xlink:href = "#escadas2" stroke = "black" transform = "translate(0, -40)"/>
+			<use xlink:href = "#escadas2" stroke = "black" transform = "translate(0, -45)"/>
+			<use xlink:href = "#escadas2" stroke = "black" transform = "translate(0, -50)"/>
+			<use xlink:href = "#escadas2" stroke = "black" transform = "translate(0, -55)"/>
+			<use xlink:href = "#escadas2" stroke = "black" transform = "translate(0, -60)"/>
+			<use xlink:href = "#escadas2" stroke = "black" transform = "translate(0, -130)"/>
+			<use xlink:href = "#escadas2" stroke = "black" transform = "translate(0, -135)"/>
+			<use xlink:href = "#escadas2" stroke = "black" transform = "translate(0, -140)"/>
+			<use xlink:href = "#escadas2" stroke = "black" transform = "translate(0, -145)"/>
+			<use xlink:href = "#escadas2" stroke = "black" transform = "translate(0, -150)"/>
+			<use xlink:href = "#escadas2" stroke = "black" transform = "translate(0, -155)"/>
+			<use xlink:href = "#escadas2" stroke = "black" transform = "translate(0, -160)"/>
+			<use xlink:href = "#escadas2" stroke = "black" transform = "translate(0, -165)"/>
+			<use xlink:href = "#escadas2" stroke = "black" transform = "translate(0, -170)"/>
+			<use xlink:href = "#escadas2" stroke = "black" transform = "translate(0, -175)"/>
+			<use xlink:href = "#escadas2" stroke = "black" transform = "translate(0, -180)"/>
+			<use xlink:href = "#escadas2" stroke = "black" transform = "translate(0, -185)"/>
+			<use xlink:href = "#escadas2" stroke = "black" transform = "translate(0, -190)"/>
+			<use xlink:href = "#escadas2" stroke = "black" transform = "translate(0, -195)"/>
+			<use xlink:href = "#escadas2" stroke = "black" transform = "translate(0, -200)"/>
+			<use xlink:href = "#escadas2" stroke = "black" transform = "translate(0, -205)"/>
+			<use xlink:href = "#escadas2" stroke = "black" transform = "translate(0, -210)"/>
+			<use xlink:href = "#escadas2" stroke = "black" transform = "translate(0, -215)"/>
+		</g>
+		<g id = "escadas_centro_esquerda">
+			<use xlink:href = "#escadas3" stroke = "black" transform = "translate(0, -5)"/>
+			<use xlink:href = "#escadas3" stroke = "black" transform = "translate(0, -10)"/>
+			<use xlink:href = "#escadas3" stroke = "black" transform = "translate(0, -15)"/>
+			<use xlink:href = "#escadas3" stroke = "black" transform = "translate(0, -20)"/>
+			<use xlink:href = "#escadas3" stroke = "black" transform = "translate(0, -25)"/>
+			<use xlink:href = "#escadas3" stroke = "black" transform = "translate(0, -30)"/>
+			<use xlink:href = "#escadas3" stroke = "black" transform = "translate(0, -35)"/>
+			<use xlink:href = "#escadas3" stroke = "black" transform = "translate(0, -40)"/>
+			<use xlink:href = "#escadas3" stroke = "black" transform = "translate(0, -45)"/>
+			<use xlink:href = "#escadas3" stroke = "black" transform = "translate(0, -50)"/>
+			<use xlink:href = "#escadas3" stroke = "black" transform = "translate(0, -55)"/>
+			<use xlink:href = "#escadas3" stroke = "black" transform = "translate(0, -60)"/>
+			<use xlink:href = "#escadas3" stroke = "black" transform = "translate(0, -65)"/>
+		</g>
+		<g id = "escuro_piso_inferior">
+			<path d="
+				M 140 430
+				L 140 480
+				L 190 480
+				L 190 430
+				L 140 430"/>
+		</g>
+		<g id = "arco_escuro_piso_inferior">
+			<path d="
+				M 140 430
+				Q 150 490 150 480
+				L 140 480
+				L 140 430"/>
+		</g>
+		<g id = "entrada_inferior_completa">
+			<use xlink:href = "#entrada_piso_inferior" stroke = "black" fill = "darkgreen"/>
+			<use xlink:href = "#escadas_baixo_esquerda_escadas2" stroke = "black"/>
+			<use xlink:href = "#escadas_centro_esquerda" stroke = "black"/>
+			<use xlink:href = "#escuro_piso_inferior" stroke = "black" fill = "black"/>
+			<use xlink:href = "#arco_escuro_piso_inferior" stroke = "black" fill = "darkgreen" opacity = "0.3"/>
+			<use xlink:href = "#arco_escuro_piso_inferior" stroke = "black" fill = "darkgreen" opacity = "0.3" transform = "scale(-1, 1) translate(-330, 0)"/>
+		</g>
+
+		<g id = "bandeira_adeptos">
+			<path d="
+				M 500 250
+				L 515 215
+				C 520 210 525 230 540 225
+				L 534 240
+				C 520 240 525 230 508 230"/>
+		</g>
+		<g id = "bandeiras_todas">
+			<use xlink:href = "#bandeira_adeptos" stroke = "black" fill = "green"/>
+			<use xlink:href = "#bandeira_adeptos" stroke = "black" fill = "red" transform = "translate(-350, 10)"/>
+			<use xlink:href = "#bandeira_adeptos" stroke = "black" fill = "green" transform = "scale(-1, 1) translate(-570, -40)"/>
+			<use xlink:href = "#bandeira_adeptos" stroke = "black" fill = "#AF1515" transform = "scale(-1, 1) translate(-930, -80)"/>
+			<use xlink:href = "#bandeira_adeptos" stroke = "black" fill = "#AF1515" transform = "scale(-1, 1) translate(-1040, 200)"/>
+			<use xlink:href = "#bandeira_adeptos" stroke = "black" fill = "green" transform = "scale(-1, 1) translate(-1000, 290)"/>
+			<use xlink:href = "#bandeira_adeptos" stroke = "black" fill = "red" transform = "translate(-250, 250)"/>
+			<use xlink:href = "#bandeira_adeptos" stroke = "black" fill = "#AF1515" transform = "translate(-400, 130)"/>
+			<use xlink:href = "#bandeira_adeptos" stroke = "black" fill = "green" transform = "translate(-160, 140)"/>
+			<use xlink:href = "#bandeira_adeptos" stroke = "black" fill = "red" transform = "scale(-1, 1) translate(-730, 150)"/>
+		</g>
+
+		<g id = "cachecol">
+			<path d="
+				M 120 200
+				L 200 200
+				L 200 180
+				L 120 180
+				L 120 200"/>
+		</g>
+		<g id = "fios_cachecol">
+			<path d="
+				M 200 180
+				L 203 178
+				M 200 181
+				L 203 179
+				M 200 182
+				L 203 180
+				M 200 183
+				L 203 181
+				M 200 184
+				L 203 183
+				M 200 185
+				L 203 183
+				M 200 186
+				L 203 184
+				M 200 187
+				L 203 185
+				M 200 188
+				L 203 186
+				M 200 189
+				L 203 188
+				M 200 190
+				L 203 190
+				M 200 191
+				L 203 191
+				M 200 192
+				L 203 192
+				M 200 193
+				L 203 193
+				M 200 194
+				L 203 194
+				M 200 195
+				L 203 195
+				M 200 196
+				L 203 196
+				M 200 197
+				L 203 197
+				M 200 198
+				L 203 199
+				M 200 199
+				L 203 200
+				M 200 200
+				L 203 202"/>
+		</g>
+		<g id = "desenha_cachecol">
+			<use xlink:href = "#cachecol" stroke = "#265407" fill = "#D20E0E"/>
+			<use xlink:href = "#fios_cachecol" stroke = "#265407" fill = "none"/>
+			<use xlink:href = "#fios_cachecol" stroke = "#265407" fill = "none" transform = "scale(-1, 1) translate(-320, 0)"/>
+		</g>
+
+		<!-- ecrã resultado -->
+
+		<g id = "ecrã_resultado">
+			<path d="
+				M 265 110
+				L 268 150
+				L 332 150
+				L 335 110
+				L 265 110"/>
+		</g>
+		<g id = "1_ecrã">
+			<path d="
+				M 290 130
+				L 293 133
+				L 295 131
+				L 295 140
+				L 300 140
+				L 300 125
+				L 295 125
+				L 290 130"/>
+		</g>
+		<g id = "0_de_dentro_ecrã">
+			<ellipse cx="310" cy="133" rx="2" ry="3"/>
+		</g>
+		<g id = "0_de_fora_ecrã">
+			<ellipse cx="310" cy="133" rx="6" ry="8"/>
+		</g>
+		<g id = "traço_resultado_jogo">
+			<path d="
+				M 295 140
+				L 305 140
+				L 305 136
+				L 295 136
+				L 295 140"/>
+		</g>
+
+		<!-- Éder --> 
+
+		<g id = "pernas_Éder">
+    		<path d="
+    			M 448 515
+    			L 440 540
+    			Q 438 545 440 545
+    			L 444 575
+    			Q 448 585 454 575
+    			L 450 542
+    			L 460 525
+    			L 475 545
+    			Q 478 550 480 551
+    			L 500 568
+    			Q 509 575 510 565
+    			L 486 543
+    			L 470 520
+    			L 470 516
+    			L 448 515"/>
+    	</g>
+    	<g id = "meias_Éder">
+    		<path d="
+    			M 440 550
+    			L 444 575
+    			Q 448 585 454 575
+    			L 451 550
+    			L 440 550
+    			M 482 554
+    			L 500 568
+    			Q 509 575 510 565
+    			L 489 546
+    			L 482 554"/>
+    	</g>
+    	<g id = "chuteira_esquerda_Éder">
+    		<path d="
+    			M 444 575
+    			Q 443 578 432 580
+    			Q 430 582 432 584
+    			L 455 584
+    			Q 458 582 454 575
+    			Q 448 580 444 575"/>
+    	</g>
+    	<g id = "adidas_chuteira_esquerda_Éder">
+    		<path d="
+    			M 444 575
+    			L 440 585
+    			L 442 585
+    			L 446 577
+    			L 444 575
+    			M 448 577
+    			L 445 585
+    			L 447 585
+    			L 450 577
+    			L 448 577
+    			M 452 576
+    			L 450 585
+    			L 452 585
+    			L 454 574
+    			L 452 576"/>
+    	</g>
+    	<g id = "chuteira_completa_Éder">
+    		<use xlink:href = "#chuteira_esquerda_Éder" stroke = "white" fill = "white"/>
+    		<use xlink:href = "#adidas_chuteira_esquerda_Éder" stroke = "black" fill = "black"/>
+    	</g>
+    	<g id = "calções_Éder">
+    		<path d="
+    			M 447 515
+    			L 439 535
+    			L 454 540
+    			L 460 530
+    			L 468 540
+    			L 481 530
+    			L 470 515
+    			L 447 515"/>
+    	</g>
+    	<g id = "tronco_Éder">
+    		<path d="
+    			M 448 515
+    			L 448 475
+    			L 425 500
+    			Q 410 508 418 500
+    			L 445 470
+    			Q 450 465 455 465
+    			Q 457 462 457 460
+    			L 465 460
+    			Q 465 462 467 465
+    			Q 470 465 474 466
+    			L 490 480
+    			L 487 500
+    			Q 483 505 480 500
+    			L 484 482
+    			L 470 475
+    			L 470 516
+    			L 448 515"/>
+    	</g>
+    	<g id = "camisola_Éder">
+    		<path d="
+    			M 447 515
+    			L 447 478
+    			L 441 485
+    			L 434 479
+    			Q 451 461 450 463
+    			Q 462 475 467 463
+    			Q 470 460 484 473
+    			L 477 481
+    			L 471 476
+    			L 471 516
+    			L 447 515"/>
+    	</g>
+    	<g id = "cabeça_Éder">
+    		<ellipse cx="460" cy="450" rx="9" ry="12"
+  			style="fill:#292704;stroke:#292704;"/>
+    	</g>
+    	<g id = "cabelo_Éder">
+    		<path d="
+    			M 463 442
+    			L 468 431
+    			M 465 444
+    			L 465 431
+    			M 455 440
+    			L 467 430
+    			M 457 442
+    			L 465 432
+    			M 458 442
+    			L 464 430
+    			M 460 440
+    			L 462 430
+    			M 463 441
+    			L 468 430
+    			M 462 443
+    			L 467 431
+    			M 468 450
+    			L 472 437
+    			M 467 449
+    			L 470 437
+    			M 465 447
+    			L 468 437
+    			M 464 446
+    			L 472 437
+    			M 468 447
+    			L 470 437
+    			M 460 445
+    			L 468 437
+    			M 458 443
+    			L 467 439"/>
+    	</g>
+    	<g id = "olhos_Éder">
+    		<ellipse cx="455" cy="448" rx="1" ry="1"
+  			style="fill:black;stroke:black"/>
+  			<ellipse cx="461" cy="448" rx="1" ry="1"
+  			style="fill:black;stroke:black"/>
+    	</g>
+    	<g id = "nariz_Éder">
+    		<path d="
+    		M 457 451
+    		L 455 454
+    		Q 457 455 457 454"/>
+    	</g>
+    	<g id = "boca_Éder">
+    		<path d="
+    			M 455 458
+    			Q 457 460 460 459
+    			L 455 458
+    			Q 457 455 460 459"/>
+    	</g>
+    	<g id = "bola">
+    		<circle cx="400" cy="550" r="13" stroke="white" fill="white"/>
+    		<path d="
+    			M 390 542
+    			L 387 548
+    			Q 395 552 397 563
+    			L 403 563
+    			Q 405 552 413 548
+    			L 410 542
+    			Q 400 545 390 542"
+    			stroke = "black" fill = "crimson"/>
+    		<path d="
+    			M 399 550
+    			Q 393 566 410 547
+    			Q 398 558 399 550"
+    			stroke="yellow" fill="yellow"/>
+    		<animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="360 200 1000"
+                          to="317 200 1000"
+                          dur="4s"
+                          repeatCount="indefinite"/>
+    	</g>
+	</defs>
+
+	
+
+
+	<use xlink:href = "#adeptos" fill = "url(#grad2)"/>
+	<use xlink:href = "#adeptos_amarelos" fill = "url(#grad3)"/>
+	<use xlink:href = "#barras_topo_estádio"/>
+	<use xlink:href = "#barra_estadio_esquerda_triangulo" stroke = "black" fill = "green"/>
+	<use xlink:href = "#barra_estadio_esquerda_triangulo" stroke = "black" fill = "green" transform = "rotate(20) translate(500,-195)"/>
+	<use xlink:href = "#segunda_barra_estadio_esquerda_triangulo" stroke = "black" fill = "green"/>
+	<use xlink:href = "#segunda_barra_estadio_esquerda_triangulo" stroke = "black" fill = "green" transform = "rotate(8) translate(205, -57)"/>
+	<use xlink:href = "#foco_menor_1" stroke = "none" fill = "white"/>
+	<use xlink:href = "#foco_menor_1" stroke = "none" fill = "white" transform = "translate(495, 0)"/> 
+	<use xlink:href = "#foco_maior_1" stroke = "none" fill = "white"/>
+	<use xlink:href = "#foco_maior_1" stroke = "none" fill = "white" transform = "translate(200, 0)"/>
+    <use xlink:href = "#flashes_adeptos"/>
+	<use xlink:href = "#fecho_lateral_esquerdo" stroke = "#0C0432" fill = "#0C0432"/>
+	<use xlink:href = "#fecho_lateral_esquerdo" stroke = "#0C0432" fill = "#0C0432" transform = "scale(-1, 1) translate(-600, 0)"/>
+	<use xlink:href = "#suporte_lateral_esquerdo" stroke = "green" fill = "green"/>
+    <use xlink:href = "#suporte_lateral_esquerdo" stroke = "green" fill = "green" transform = "scale(-1, 1) translate(-600, 0)"/>
+	<use xlink:href = "#barra_FIFA" stroke = "black" fill = "#072229"/>
+    <use xlink:href = "#FIFA"/>
+	<use xlink:href = "#barra_piso1/2" stroke = "black" fill = "green"/>
+	<use xlink:href = "#camarote" stroke = "black" fill = "url(#grad1)"/>
+	<use xlink:href = "#camarote" stroke = "black" fill = "url(#grad1)" transform = "translate(100, 0)"/>
+	<use xlink:href = "#camarote" stroke = "black" fill = "url(#grad1)" transform = "translate(200, 0)"/>
+	<use xlink:href = "#camarote" stroke = "black" fill = "url(#grad1)" transform = "translate(300, 0)"/>
+	<use xlink:href = "#camarote" stroke = "black" fill = "url(#grad1)" transform = "translate(400, 0)"/>
+	<use xlink:href = "#camarote" stroke = "black" fill = "url(#grad1)" transform = "translate(500, 0)"/>
+	<use xlink:href = "#barra_piso1/2" stroke = "black" fill = "green" transform = "translate(0, 40)"/>
+	<use xlink:href = "#entrada_piso_superior_H" stroke = "black" fill = "darkgreen"/>
+	<use xlink:href = "#escadas_esquerda" stroke = "black"/>
+	<use xlink:href = "#escadas_esquerda" stroke = "black" transform = "translate(110, 0)"/>
+	<use xlink:href = "#escuro_piso_superior" stroke = "black" fill = "black"/>
+	<use xlink:href = "#arco_escuro_piso_superior" stroke = "black" fill = "darkgreen" opacity = "0.3"/>
+	<use xlink:href = "#arco_escuro_piso_superior" stroke = "black" fill = "darkgreen" opacity = "0.3" transform = "scale(-1, 1) translate(-600, 0)"/>
+	<use xlink:href = "#entrada_inferior_completa"/>
+	<use xlink:href = "#entrada_inferior_completa" transform = "translate(270, 0)"/>
+	<use xlink:href = "#bola"/>
+    <use xlink:href = "#poste_baliza" stroke = "white" fill = "white"/>
+    <use xlink:href = "#suporte_baliza" stroke = "#B8C0B2" fill = "#B8C0B2"/>
+    <use xlink:href = "#rede" stroke = "white" fill = "none"/>
+    <use xlink:href = "#relvado3" stroke = "darkgreen" fill = "green"/>
+	<use xlink:href = "#bandeiras_todas"/>
+	<use xlink:href = "#desenha_cachecol"/>
+	<text x="126" y="194" font-size="13" font-family="Times" fill="yellow">
+    PORTUGAL
+    </text>
+    <use xlink:href = "#desenha_cachecol" transform = "translate(140, 250)"/>
+	<text x="265" y="444" font-size="13" font-family="Times" fill="yellow">
+    PORTUGAL
+    </text>
+    <use xlink:href = "#desenha_cachecol" transform = "translate(300, 0)"/>
+	<text x="426" y="194" font-size="13" font-family="Times" fill="yellow">
+    PORTUGAL
+    </text>
+	<use xlink:href = "#ecrã_resultado" stroke = "black" fill = "#0F253C"/>
+	<use xlink:href = "#1_ecrã" stroke = "black" fill = "white" transform = "translate(-10, 5.5)"/>
+	<use xlink:href = "#0_de_fora_ecrã" stroke = "black" fill = "white" transform = "translate(5, 5)"/>
+	<use xlink:href = "#0_de_dentro_ecrã" stroke = "black" fill = "#0F253C" transform = "translate(5, 5)"/>
+	<use xlink:href = "#traço_resultado_jogo" stroke = "black" fill = "white"/>
+	<text x="270" y="125" font-size="10" font-family="Times" fill="white">
+    POR
+    </text>
+    <text x="310" y="125" font-size="10" font-family="Times" fill="white">
+    FRA
+    </text>
+    <use xlink:href = "#pernas_Éder" stroke = "#292704" fill = "#292704"/>
+    <use xlink:href = "#meias_Éder" stroke = "#255C23" fill = "#255C23"/>
+    <use xlink:href = "#chuteira_completa_Éder"/>
+    <use xlink:href = "#chuteira_completa_Éder" transform = "rotate(-50) translate(-558, 175)"/>
+    <use xlink:href = "#tronco_Éder" stroke = "#292704" fill = "#292704"/>
+    <use xlink:href = "#camisola_Éder" stroke = "crimson" fill = "#A41125"/>
+    <use xlink:href = "#calções_Éder" stroke = "crimson" fill = "#A41125"/>
+    <text x="466" y="531" font-size="12" font-family="Times" fill="white">
+    9
+    </text>
+    <use xlink:href = "#cabeça_Éder"/>
+    <use xlink:href = "#cabelo_Éder" stroke = "black" stroke-width = "2" fill = "none"/>
+    <use xlink:href = "#olhos_Éder"/>
+    <use xlink:href = "#nariz_Éder" stroke = "black" fill = "none"/>
+    <use xlink:href = "#boca_Éder" stroke = "black" fill = "white"/>
+</svg>
