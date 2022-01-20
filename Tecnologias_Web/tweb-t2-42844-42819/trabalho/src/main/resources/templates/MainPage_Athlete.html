@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://www.thymeleaf.org"
+      xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" initial-scale="1">
+        <title>Correr em Évora</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="javascript/jsfile.js"></script>
+    </head>
+    <body>
+        <img id="fundo" src="images/fundo.jpg" alt="fundo">
+        
+        <div id="topbox">
+            <img id="img1" src="images/logoImage.jpg" alt="Logo">
+            <p id="nameOfCompany">Correr em Évora</p>
+            
+            <button id="eventos_realizados_button">Eventos Realizados</button>
+            <button id="eventos_a_decorrer_button">Eventos a Decorrer</button>
+            <button id="proximos_eventos_button">Próximos Eventos</button>
+            <button id="procurar_evento_button">Procurar Evento</button>
+            <button id="acessoReservado_button">Acesso Reservado</button>
+        </div>
+
+        <div id="eventosRealizados" class="mainData"></div>
+
+        <div id="eventosADecorrer" class="mainData"></div>
+
+        <div id="proximosEventos" class="mainData"></div>
+        
+        <div id="procurarEvento" class="mainData">
+            <div id="newMiddleDivProcurarEvento">
+                <form id="procurarEventoForm" method="POST">
+                    <label>Nome do Evento:
+                        <input type="text" name="eventName">
+                    </label>
+                    <br>
+                    <br>
+                    <label>Data de Realização do Evento:
+                        <input type="text" name="eventDate">
+                    </label>
+                    <br>
+                    <br>
+                    <input type="submit" id="submitProcurarEvento" class="buttonsOfEventsExplore" value="Procurar Evento">
+                </form>
+                <br>
+                <button id="hideProcurarEventoButton" class="buttonsOfEventsExplore">Regressar</button>
+            </div>
+        </div>
+
+        <div id="eventosRecebidos" class="mainData"></div>
+
+        <div id="acessoReservado_Athlete" class="mainData">
+            
+            <button id="buttonToGetRegistrations" class="buttonsOfEventsExplore">As minhas inscrições</button>
+            
+            <form th:action="@{/logout}" method="post">
+                <input id="logoutButton" "type="submit" value="Encerrar Sessão"/>
+            </form>
+            
+        </div>
+
+        <div id="ListarParticipanteDiv" class="mainData"></div>
+
+        <div id="ClassificacaoGeralDiv" class="mainData"></div>
+        
+        <div id = "underbox">
+            <div id="sobreAEmpresaDiv">
+                <p class="titulodeCadaDivUnderbox">Sobre a Empresa</p>
+                <p class="textoUnderBox">Somos uma nova empresa que pretende revolucionar os hábitos desportivos dos habitantes da Muy Nobre e Sempre Leal Cidade de
+                    Évora. Vem correr conosco!
+                </p>
+            </div>
+            <div id="contactosDiv">
+                <p class="titulodeCadaDivUnderbox">Contactos:</p>
+                <p class="textoUnderBox">l42844@alunos.uevora.pt</p>
+                <p class="textoUnderBox">l42819@alunos.uevora.pt</p>
+            </div>
+            <div id="creditosDiv">
+                <p class="titulodeCadaDivUnderbox">Créditos:</p>
+                <p class="textoUnderBox">Rodrigo Pinto Vicente</p>
+                <p class="textoUnderBox">Vasco Miguel Batinas Barnabé</p>
+            </div>
+            <div id="colaboradoresDiv">
+                <p class="titulodeCadaDivUnderbox">Colaboradores:</p>
+                <a href="https://www.sportzone.pt"><img id = "sportzone" class="imageOfUnderBox" src="images/sportzone.png" alt="Sportzone"></a>
+                <a href="https://www.asics.com/pt/pt-pt/"><img id = "asics" class="imageOfUnderBox" src="images/asics.jpg" alt="Asics"></a>
+                <a href="https://www.creditoagricola.pt/"><img id = "CA" class="imageOfUnderBox" src="images/CA.jpg" alt="Caixa Agrícola"></a>
+                <a href="https://everybodyclubs.com/"><img id = "everybody" class="imageOfUnderBox" src="images/everybody.jpg" alt="Everybody"></a>
+                <a href="https://www.vitalis.pt/"><img id = "Vitalis" class="imageOfUnderBox" src="images/vitalis.png" alt="Vitalis"></a>
+            </div>
+        </div>
+    </body>
+</html>
