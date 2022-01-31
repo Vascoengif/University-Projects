@@ -33,12 +33,12 @@
             <version>3.0.3</version>
             <type>jar</type>
         </dependency>
-        /*<dependency>
+        <!--<dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>28.2-android</version>
             <type>jar</type>
-        </dependency>*/
+        </dependency>-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-web</artifactId>
